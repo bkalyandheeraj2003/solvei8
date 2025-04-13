@@ -1,0 +1,23 @@
+# Core analytics and API
+fastapi
+uvicorn
+pandas
+numpy
+
+# Vector DB
+chromadb
+sentence-transformers
+
+# LLM (local CPU inference)
+llama-cpp-python>=0.2.32
+
+# Optional LLMs (let pip resolve versions)
+transformers
+tokenizers
+
+# Optional ML tools
+tensorflow==2.15.0
+keras==2.15.0
+
+# Utilities
+requests
